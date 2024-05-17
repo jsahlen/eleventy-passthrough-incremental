@@ -1,0 +1,12 @@
+{
+  "name": "eleventy-vite-passthrough",
+  "version": "1.0.0",
+  "author": "Johan Sahlén <johan@monospace.se>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "rm -rf dist && eleventy --watch --incremental"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
